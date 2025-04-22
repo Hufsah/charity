@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HelpHub | Charity Profile</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="cl.html">Explore Charities</a> |
+    <a href="cp.html">Charity Profile</a>
+  </nav>
+
+  <h1>Clean Water Initiative</h1>
+  <img src="https://via.placeholder.com/400x200" alt="Clean Water Initiative Image" id="charity-img">
+
+  <div id="extra-details" style="display: none; margin-top: 10px;">
+    <p><strong>More Info:</strong> This project has reached over 50 villages and continues expanding!</p>
+  </div>
+
+  <p>The Wild Life Conservation Society is dedicated to making sure wild animals are protected from poachers. .</p>
+
+  <h2>Mission</h2>
+  <p>To provide a safe space for wild animals.</p>
+
+  <button id="volunteer-btn">Volunteer Now</button>
+  <h2>Wildlife Conservation Spotlight</h2>
+  <div id="wildlife-data"></div>
+
+
+  <!-- Hidden Volunteer Form -->
+  <div id="volunteer-form-container" style="display: none; margin-top: 20px;">
+    <h2>Volunteer With Us!</h2>
+    <form action="#" method="post">
+      <label for="vol-name">Name:</label><br>
+      <input type="text" id="vol-name" name="vol-name"><br>
+
+      <label for="vol-email">Email:</label><br>
+      <input type="email" id="vol-email" name="vol-email"><br>
+
+      <label for="vol-message">Why do you want to volunteer?</label><br>
+      <textarea id="vol-message" name="vol-message" rows="4" cols="50"></textarea><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
